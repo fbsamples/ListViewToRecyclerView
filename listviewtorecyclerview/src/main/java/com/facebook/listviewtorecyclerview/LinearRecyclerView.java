@@ -26,9 +26,8 @@ import static android.view.GestureDetector.SimpleOnGestureListener;
 
 /**
  * A {@code RecyclerView} that adds support for OnItemClickListeners and Empty Views.
- * This RecyclerView is intended to always be used with a {@link LinearLayoutManager}.
- *
- * To be used with {@link RecyclerViewProxy}.
+ * This RecyclerView is intended to always be used with a {@link LinearLayoutManager}
+ * and inside of {@link RecyclerViewProxy}.
  */
 public class LinearRecyclerView extends RecyclerView {
 
@@ -82,7 +81,7 @@ public class LinearRecyclerView extends RecyclerView {
      * @param view the view that was long clicked
      * @param position the adapter position of the item that was long-clicked
      * @param id the item id of the item or {@link #NO_ID} if it doesn't have an id
-     * @return the result is currently ignored (WHY?)
+     * @return the result is currently ignored.
      */
     boolean onItemLongClick(LinearRecyclerView parent, View view, int position, long id);
   }
@@ -131,7 +130,7 @@ public class LinearRecyclerView extends RecyclerView {
   }
 
   /**
-   * Now that we can have empty views covering the recycler view, the visibility of this view is
+   * Now that we can have empty views covering the RecyclerView, the visibility of this view is
    * not enough to determine whether the component as a whole is visible or not. setVisibility will
    * either ensure that the whole component is invisible or the proper part of the component is
    * visible.

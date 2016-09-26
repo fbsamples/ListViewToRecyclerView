@@ -39,9 +39,9 @@ public interface ScrollingViewProxy {
 
   /**
    * An Adapter which can be used in either a ListView or a RecyclerView. It breaks up calls
-   * to to {@link ListAdapter#getView(int, View, ViewGroup)} into
+   * to {@link ListAdapter#getView(int, View, ViewGroup)} into
    * {@link Adapter#createView(int, ViewGroup)} and
-   * {@link Adapter#bindView(int, Object, View, int, ViewGroup)} to more closely match the api
+   * {@link Adapter#bindView(int, Object, View, int, ViewGroup)} to more closely match the API
    * provided in {@link RecyclerView.Adapter}.
    *
    * Either extend {@link BaseAdapter} or implement

@@ -141,7 +141,7 @@ public class RecyclerViewProxy implements ScrollingViewProxy {
 
   /**
    * {@param scrollDuration} is ignored because RecyclerView doesn't expose a way to scroll over
-   * a duration
+   * a duration.
    * @param i vertical number of pixels to scroll by
    * @param scrollDuration ignored
    */
