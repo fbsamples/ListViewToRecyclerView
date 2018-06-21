@@ -1,3 +1,5 @@
+** THIS REPO HAS BEEN ARCHIVED AND IS NO LONGER BEING ACTIVELY MAINTAINED **
+
 # ListViewToRecyclerView
 ### Authors
 * Omer Strulovich (strulovich)
